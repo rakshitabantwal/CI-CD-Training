@@ -2,7 +2,7 @@ name: Demo Workflow
 on:
   push:
     branches:
-      - demo_branch
+      - master
 jobs:
   build:
     runs-on: windows-latest
